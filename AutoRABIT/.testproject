@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testProject selectedBrowserConfigurationName="Full Screen" selectedBrowserProviderDeviceName="Full Screen" selectedBrowserProviderName="Desktop">
-  <title>/AutoRABIT/.testproject</title>
+<testProject selectedBrowserProviderDeviceName="Full Screen" selectedBrowserProviderName="Desktop">
+  <title>/Autorabit/.testproject</title>
   <configPath>config</configPath>
   <testsPath>tests</testsPath>
   <templatesPath>templates</templatesPath>
   <sourcePath>src</sourcePath>
   <secureStoragePath>.secrets</secureStoragePath>
   <browserDebugPort>0</browserDebugPort>
-  <environments/>
   <connectionClasses>
     <connectionClass name="sf">
       <connections>
-        <connection name="Test">
-          <summary/>
+        <connection name="ShamsOrg">
           <connectionUrls>
-            <connectionUrl secureStorageNodeId="f8b30731-fca6-4002-9bf2-3142ebfc1267" url="sf:user=chaithanya_baxter@ar.com;password={password};securityToken={securityToken};environment=PROD_DEV;userLoginUrl=https://baxter-lightning-dev-ed.my.salesforce.com"/>
+            <connectionUrl secureStorageNodeId="6cf82e4e-2dc0-4787-84f2-a311859d762c" url="sf:user=shamshuddink8@gmail.com;password={password};environment=PROD_DEV"/>
           </connectionUrls>
         </connection>
       </connections>
